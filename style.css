@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Silkscreen&display=swap');
+
+body{
+    background: url(https://i.pinimg.com/736x/8e/ef/98/8eef985f183e252c7f94e6eee201d948.jpg);
+    align-items:center;
+    justify-content:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.game {
+    width: 600px;
+    height: 215px;
+    border: 1px solid black;
+    margin: auto;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9Q7gKv43i4gf2xUzXy-OOTNSCN3R4tkLnXA&usqp=CAU);
+  }
+  
+  #dino {
+    width: 80px;
+    height: 80px;
+    background-image: url("imagens/dino.png");
+    background-size: 80px 80px;
+    position: relative;
+    top: 150px;
+  }
+  
+  .jump {
+    animation: jump 0.3s linear;
+  }
+  
+  @keyframes jump {
+    0% {
+      top: 150px;
+    }
+  
+    30% {
+      top: 130px;
+    }
+  
+    50% {
+      top: 80px;
+    }
+  
+    80% {
+      top: 130px;
+    }
+  
+    100% {
+      top: 150px;
+    }
+  }
+  
+  #cactus {
+    width: 20px;
+    height: 40px;
+    position: relative;
+    top: 95px;
+    left: 580px;
+  
+    background-image: url("imagens/cacto.png");
+    background-size: 20px 40px;
+  
+    animation: block 2s infinite linear;
+  }
+  
+  @keyframes block {
+    0% {
+      left: 580px;
+    }
+  
+    100% {
+      left: -10px;
+    }
+  }
+
+  .center{
+    text-align: center;
+    font-family:'Silkscreen', cursive ;
+    font-size: 90px;
+  }
+
+  .imagem{
+    text-align: center;
+  }
