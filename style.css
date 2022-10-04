@@ -19,7 +19,7 @@ body{
   #dino {
     width: 80px;
     height: 80px;
-    background-image: url("imagens/dino.png");
+    background-image: url("imagens/dragaocorre.gif");
     background-size: 80px 80px;
     position: relative;
     top: 150px;
@@ -52,14 +52,14 @@ body{
   }
   
   #cactus {
-    width: 20px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     position: relative;
     top: 95px;
     left: 580px;
   
-    background-image: url("imagens/cacto.png");
-    background-size: 20px 40px;
+    background-image: url("imagens/missil.png");
+    background-size: 60px 60px;
   
     animation: block 2s infinite linear;
   }
